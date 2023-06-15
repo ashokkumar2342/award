@@ -1161,8 +1161,9 @@ select[name="ddlrelation"] {
                                     <ul class="menu-area-main">
                                         <li class="active"> <a href="index.html">HOME</a> </li>
                                         <li> <a href="{{ route('admin.register')}}">Register</a> </li>
-                                        <li> <a href="#">ABOUT</a> </li>
-                                        <li> <a href="#">CONTACT US</a> </li>
+                                        <li> <a href="{{ route('admin.login')}}">Login</a> </li>
+                                        
+                                        <li> <a href="#footer_with_contact">CONTACT US</a> </li>
                                         
                                     
                                         
