@@ -48,6 +48,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main-menu ul>li a {
+    padding: 7px 10px 7px 10px;
+    line-height: 20px;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    color: #ebd8d8;
+    text-transform: uppercase;
+    margin: 0px 15px;
+}
 
 
 body {
@@ -1136,7 +1146,7 @@ select[name="ddlrelation"] {
 <body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+        <div class="loader"><img src="{{asset('front_asset/images/loading.gif')}}" alt="#" /></div>
     </div>
     <!-- end loader -->
     <!-- header -->
@@ -1227,7 +1237,7 @@ select[name="ddlrelation"] {
                     <div class="titlepage" style="margin-bottom: -30px;">
                         <h2>Welcome To IAMRF </h2>
                         <span>🏆 Welcome to the Website of IAMRF:
-                        <span>Welcome to the official website of IAMRF (Innovative & Advanced Multidisciplinary Research Foundation Award Company), a visionary organization dedicated to advancing multidisciplinary research and fostering innovation across various domains. At IAMRF, we strive to push the boundaries of knowledge, fuel groundbreaking discoveries, and recognize exceptional contributions that have the potential to transform industries and improve the lives of people worldwide.  🏆</span>
+                        <span>Welcome to  IAMRF (Innovative & Advanced Multidisciplinary Research Foundation Award Company), a visionary organization dedicated to advancing multidisciplinary research and fostering innovation across various domains. At IAMRF, we strive to push the boundaries of knowledge, fuel groundbreaking discoveries, and recognize exceptional contributions that have the potential to transform industries and improve the lives of people worldwide.🏆</span>
                     </div>
                 </div>
             </div> 
@@ -1280,118 +1290,118 @@ select[name="ddlrelation"] {
 <div class="row" id="Grid">
     <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Institution Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
     <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Director/ Principal Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Chairman of the Institute Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Vice Chancellor Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Pro Vice Chancellor Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Dean Academic Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Dean Research Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Administrator Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Director Administration Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Controller of Examination Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Registrar Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Placement Coordinator Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
     <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Teacher Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Lifetime Achievement Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Publication Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Women Researcher Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Research Supervisor Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Women Faculty Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Entrepreneur Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Young Researcher Award (Male)</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Young Researcher Award (Female)</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
       <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Young Scientist Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
       <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Academician Award</h5>
-        <p class="my-2 font-12 color-main">Click TO Ragister</p>
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>01/05/2023</b> To <b>15/09/2023</b></p> 
+        {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
     </div>
    
 </div>
@@ -1413,21 +1423,21 @@ select[name="ddlrelation"] {
                         <div class="address">
                             <h3>Contact Us</h3>
                             <ul class="locarion_icon">
-                                <li><img src="{{asset('front_asset/icon/1.png')}}" alt="icon" />Rohtak</li>
+                                <li><img src="{{asset('front_asset/icon/1.png')}}" alt="icon" />B. M. Institute of Engineering & Technology is an engineering college located at Raipur-Fazilpur Road, Sonepat, Haryana, Delhi NCR</li>
                                 <li><img src="{{asset('front_asset/icon/2.png')}}" alt="icon" />Phone : ( +91 97293 76850)</li>
-                                <li><img src="{{asset('front_asset/icon/3.png')}}" alt="icon" />Email : info@iamrf.in</li>
+                                {{-- <li><img src="{{asset('front_asset/icon/3.png')}}" alt="icon" />Email : info@iamrf.in</li> --}}
                                 <li>
-                                <script type="text/javascript" src="https://services.webestools.com/cpt_pages_views/74630-11-5.js"></script>
-                                </li>
+                                {{-- <script type="text/javascript" src="https://services.webestools.com/cpt_pages_views/74630-11-5.js"></script>
+                                </li> --}}
 
                             </ul>
-
+{{-- 
                             <ul class="contant_icon">
                                 <li><img src="{{asset('front_asset/icon/fb.png')}}" alt="icon" /></li>
                                 <li><img src="{{asset('front_asset/icon/tw.png')}}" alt="icon" /></li>
                                 <li><img src="{{asset('front_asset/icon/lin(2).png')}}" alt="icon" /></li>
                                 <li><img src="{{asset('front_asset/icon/instagram.png')}}" alt="icon" /></li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                     <!-- <div class="col-lg-6 col-md-6 col-sm-12 width">
@@ -1455,7 +1465,7 @@ select[name="ddlrelation"] {
                         </div>
                     </div> -->
                     <div class="col-lg-9 width "> 
-                        <iframe frameborder="0" width="100%" height="100%" scrolling="no" src="https://maps.google.com/maps?q=Village%20Kablana%2C%209%20Milestone%2C%20Jhajjar%20%E2%80%93%20Bahadurgarh%20Road%2C%20Jhajjar%2C%20Haryana%2C%20India%20124104&amp;t=m&amp;z=9&amp;output=embed&amp;iwloc=near" title="Village Kablana, 9 Milestone, Jhajjar – Bahadurgarh Road, Jhajjar, Haryana, India 124104" aria-label="Village Kablana, 9 Milestone, Jhajjar – Bahadurgarh Road, Jhajjar, Haryana, India 124104"></iframe>
+                        <iframe frameborder="0" width="100%" height="100%" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.933271234535!2d77.06030834562439!3d28.987009785388267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db1cd94a1de7d%3A0xdcb85d73d60cbd13!2sB.M.%20Institute%20Of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1687083647190!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                      
                 </div>

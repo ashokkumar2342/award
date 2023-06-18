@@ -199,11 +199,11 @@ class LoginController extends Controller
       // event(new SmsEvent($request->mobile_no,$message,$tempid));
         
       #send email
-      $data = array( 'email' => $request->email_id, 'otp' =>  $email_otp, 'from' => 'info@IAMRF.in', 'from_name' => 'IAMRF' );
-      Mail::send('emails.mail_otp', $data, function( $message ) use ($data)
-      {
-        $message->to( $data['email'] )->from( $data['from'], 'IAMRF' )->subject( 'Code Verification!' );
-      });
+      // $data = array( 'email' => $request->email_id, 'otp' =>  $email_otp, 'from' => 'info@IAMRF.in', 'from_name' => 'IAMRF' );
+      // Mail::send('emails.mail_otp', $data, function( $message ) use ($data)
+      // {
+      //   $message->to( $data['email'] )->from( $data['from'], 'IAMRF' )->subject( 'Code Verification!' );
+      // });
 
       return redirect()->route('admin.login',Crypt::encrypt($user_id))->with(['message'=>'Registration Successfully','class'=>'success']); 
         
