@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;  
 use Illuminate\Support\Facades\Crypt;  
 use Illuminate\Support\Facades\Response;  
+use App\Model\User;  
 
 class DashboardController extends Controller
 {
@@ -71,6 +72,17 @@ class DashboardController extends Controller
     public function userList()
     {
       try{
+          $userlists = DB::select(DB::raw("select * from `users` order by `name`"));
+          return view('admin.UserManagements.user_list',compact('userlists'));
+          }catch (Exception $e) {
+        
+        }
+    } 
+    public function userDelete($id)
+    {
+      try{
+        $user =User::find($id)->delete();
+
           $userlists = DB::select(DB::raw("select * from `users` order by `name`"));
           return view('admin.UserManagements.user_list',compact('userlists'));
           }catch (Exception $e) {

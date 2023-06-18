@@ -29,8 +29,8 @@
                             <td>{{$userlists->email_id}}</td>
                             <td>{{$userlists->mobile_no}}</td>
                             <td>
-                                <a href="" class="btn btn-xs btn-info"><i class="fa fa-edit"></i></a>
-                                <a href="" class="btn btn-xs btn-info">Active</a>
+                                <a href="{{ route('admin.user.delete',$userlists->id) }}" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
+                                {{-- <a href="" class="btn btn-xs btn-info">Active</a> --}}
                                 
                             </td>
                         </tr>

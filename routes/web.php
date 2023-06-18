@@ -54,6 +54,7 @@ Route::group(['middleware' => 'admin'], function() {
 	Route::get('add-new-user', 'DashboardController@addNewUser')->name('admin.add.new.user');
 	Route::post('add-new-user-store', 'DashboardController@addNewUserStore')->name('admin.add.new.user.store');
 	Route::get('user-list', 'DashboardController@userList')->name('admin.user.list');
+	Route::get('user-delete/{id}', 'DashboardController@userDelete')->name('admin.user.delete');
 	Route::get('check-amount', 'DashboardController@checkAmount')->name('admin.check.amount'); 
 
 	Route::get('payment-status', 'BookingController@BookingStatus')->name('admin.booking.status'); 	//OK--------------
