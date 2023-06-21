@@ -180,7 +180,7 @@ class LoginController extends Controller
       $new_name = MyFuncs::removeSpacialChr($request->name);
       $new_email = MyFuncs::removeSpacialChr($request->email_id);
 
-      DB::select(DB::raw("Insert Into `users` (`name`, `email_id`, `mobile_no`, `password`, `role_id`, `created_by`, `status`) Values ('$new_name', '$new_email', '$request->mobile_no', '$en_password', 4, 0, 0);"));
+      DB::select(DB::raw("Insert Into `users` (`name`, `email_id`, `mobile_no`, `password`, `role_id`, `created_by`, `status`) Values ('$new_name', '$new_email', '$request->mobile_no', '$en_password', 4, 0, 1);"));
 
 
       //Code To Genderate and save verification Code

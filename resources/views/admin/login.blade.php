@@ -67,7 +67,7 @@
               <button type="submit" class="btn  btn-block" style="background-color: #508e4c;color: #fff">Sign In</button>
             </div> 
             <div class="col-12 form-group">
-              <a href="{{ route('admin.register') }}" title="" style="color: #508e4c">Register for new membership</a><br>
+              <a href="{{ route('admin.register') }}" title="" style="color: #508e4c">Register</a><br>
               <a href="{{ route('admin.forgot.password') }}" title="" style="color: #508e4c">Forgot Password</a><br>
               <a href="{{ route('front.index') }}" title="">Home</a>
             </div>

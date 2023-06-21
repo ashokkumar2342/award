@@ -1142,6 +1142,9 @@ select[name="ddlrelation"] {
         }
         
     }
+    div, p, ol li, ul li {
+        color: #fff !important;
+    }
 </style>
 <body class="main-layout">
     <!-- loader  -->
@@ -1235,7 +1238,7 @@ select[name="ddlrelation"] {
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage" style="margin-bottom: -30px;">
-                        <h2>Welcome To IAMRF </h2>
+                        
                         <span>🏆 Welcome to the Website of IAMRF:
                         <span>Welcome to  IAMRF (Innovative & Advanced Multidisciplinary Research Foundation Award Company), a visionary organization dedicated to advancing multidisciplinary research and fostering innovation across various domains. At IAMRF, we strive to push the boundaries of knowledge, fuel groundbreaking discoveries, and recognize exceptional contributions that have the potential to transform industries and improve the lives of people worldwide.🏆</span>
                     </div>
@@ -1423,8 +1426,8 @@ select[name="ddlrelation"] {
                         <div class="address">
                             <h3>Contact Us</h3>
                             <ul class="locarion_icon">
-                                <li><img src="{{asset('front_asset/icon/1.png')}}" alt="icon" />B. M. Institute of Engineering & Technology is an engineering college located at Raipur-Fazilpur Road, Sonepat, Haryana, Delhi NCR</li>
-                                <li><img src="{{asset('front_asset/icon/2.png')}}" alt="icon" />Phone : ( +91 97293 76850)</li>
+                                <li style="font:#fff"><img src="{{asset('front_asset/icon/1.png')}}" alt="icon" />B. M. Institute of Engineering & Technology is an engineering college located at Raipur-Fazilpur Road, Sonepat, Haryana, Delhi NCR</li>
+                                <li><img src="{{asset('front_asset/icon/2.png')}}" alt="icon" />Phone : ( +91  8851610575)</li>
                                 {{-- <li><img src="{{asset('front_asset/icon/3.png')}}" alt="icon" />Email : info@iamrf.in</li> --}}
                                 <li>
                                 {{-- <script type="text/javascript" src="https://services.webestools.com/cpt_pages_views/74630-11-5.js"></script>
@@ -1478,7 +1481,7 @@ select[name="ddlrelation"] {
     <!-- end footer -->
     <!-- Javascript files-->
 <div class="rwid">
-        <a href="tel:9729376850" style="color:#80cd33 !important">
+        <a href="tel: 8851610575" style="color:#80cd33 !important">
         <i class="fa fa-phone"> </i>
       </a>
       
