@@ -1142,7 +1142,7 @@ select[name="ddlrelation"] {
         }
         
     }
-    div, p, ol li, ul li {
+     ul li {
         color: #fff !important;
     }
 </style>
