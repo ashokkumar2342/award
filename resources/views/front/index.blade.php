@@ -1292,119 +1292,143 @@ select[name="ddlrelation"] {
             
 <div class="row" id="Grid">
     <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+        <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Institution Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
     <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+        <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Director/ Principal Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Chairman of the Institute Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Vice Chancellor Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Pro Vice Chancellor Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Dean Academic Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Dean Research Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Administrator Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Director Administration Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Controller of Examination Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Registrar Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
 <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Placement Coordinator Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
     <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+        <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Teacher Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Lifetime Achievement Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Publication Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Women Researcher Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Research Supervisor Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Women Faculty Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Entrepreneur Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Young Researcher Award (Male)</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
    <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+    <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Young Researcher Award (Female)</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
       <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+        <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Young Scientist Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
     </div>
       <div class="col-lg-3 col-md-5 p-3 shadow-new m-3 bg-light">
+        <a href="{{ route('admin.login') }}" title="">
         <h5 class="d-inline-block color-main fw-bolder pb-0 mb-0 font-18">IAMRF Best Academician Award</h5>
         {{-- <p class="my-2 font-12 color-main">Click TO Ragister</p> --}}
-        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p> 
+        <p class="color-main font-14"><span class="text-success fw-bold">Open From</span> :<b>19/06/2023</b> To <b>20/08/2023</b></p></a> 
+
     </div>
    
 </div>
